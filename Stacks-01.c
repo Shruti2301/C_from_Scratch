@@ -16,30 +16,30 @@ int main()
 	
 	while(1)
 	{
-		printf("\n Perform Operations on the Stack:");
-		printf("\n1. Push the Element \n2. Pop the Element \n3. Show \n4.End");
+            printf("\n Perform Operations on the Stack:");
+	    printf("\n1. Push the Element \n2. Pop the Element \n3. Show \n4.End");
 	    printf("\n\n Enter the Choice: ");
 	    scanf("%d", &choice);
 	    
 	    switch(choice)
 	    {
 	    	case 1:
-			    push();
+		        push();
 	    		break;
 	    	
-			case 2:
-				pop();
-				break;
+		case 2:
+			pop();
+			break;
 			
-			case 3:
-			    show();
-				break;
+		case 3:
+			show();
+			break;
 			
-			case 4:
-			    exit(0);
+		case 4:
+			 exit(0);
 				
-			default:
-			    printf("\n Invalid Choice !!");	
+		default:
+			 printf("\n Invalid Choice !!");	
 		}
     }
 }
